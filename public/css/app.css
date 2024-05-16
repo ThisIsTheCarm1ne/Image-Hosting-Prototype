@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.image-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.image {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font: inherit;
+}
+button:active {
+    background-color: #00000045;
+}
+.image img {
+    width: 10em;
+    height: auto;
+}
+.fullsize-container {
+    background-color: #00000045;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullsize-container img {
+    width: auto;
+    height: 100%;
+}
+h1 {
+    margin-top: 5vh;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5em;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
